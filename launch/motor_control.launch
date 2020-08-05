@@ -1,0 +1,6 @@
+<launch>
+
+	<node pkg="motor_controller" name="motor_controller_pwm" type="motor_controller_pwm.py" output="screen" launch-prefix="sudo -E PYTHONPATH=$(env PYTHONPATH)"/>
+	
+
+</launch>
